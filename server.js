@@ -4,6 +4,7 @@ var app        = express();
 var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 var router = require('./routes/routes');
+var posts = require('./routes/posts');
 var path = require('path');
 mongoose.connect('mongodb://localhost/petstore');
 
@@ -21,6 +22,7 @@ app.get('/',function(req, res){
 	res.render('index');
 });
 app.use('/', router);
+app.use('/posts', posts);
 
 app.listen(port);
 var document = require('./petsDatabaase')
