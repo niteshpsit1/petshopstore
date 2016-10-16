@@ -1,0 +1,43 @@
+.order {
+    float: right;
+    border: 2px solid;
+    padding: 5px 5px;
+    width: 400px;
+}
+
+.pets{
+    width: 200px;
+    border: 2px solid;
+    float: left;
+}
+
+.oldOrderlist{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid greenyellow;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+}
+.item {
+    border: 1px solid lightcoral;
+    margin: 5px;
+}
+.selected{
+    border: 1px solid green;
+    margin: 5px;
+}
+.petlist {
+    padding: 5px 5px 5px 5px;
+}
+.total{
+        float: right;
+}
+.pet {
+    padding: 10px;
+}
+
+.selectedItems {
+    border: 2px solid;
+    width: 282px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
